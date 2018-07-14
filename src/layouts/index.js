@@ -5,6 +5,7 @@ import Helmet from 'react-helmet';
 import Navbar from '../components/Navbar';
 import HeroBanner from '../components/HeroBanner';
 import HeroImage from '../components/HeroImage';
+import HeroDescription from '../components/HeroDescription';
 import './index.scss';
 
 const TemplateWrapper = ({ children }) => (
@@ -19,6 +20,10 @@ const TemplateWrapper = ({ children }) => (
     <Navbar />
     <HeroBanner />
     <HeroImage />
+    <HeroDescription
+      title="About the Junior Term Abroad Program"
+      description="The Junior Term Abroad Program is an opportunity that allows juniors of the Ateneo to study abroad for one semester. Previous participants have described their study-abroad experiences as both academically enriching and personally rewarding, an important period of growth and discovery in their college lives. Participants are expected to be Ateneo's unofficial student-ambassadors, helping build our relationships with our partner institutions abroad."
+    />
     <div
       style={{
         margin: '0 auto',

@@ -45,6 +45,7 @@
     "imports-loader": "^0.8.0",
     "jest": "^22.4.3",
     "prettier": "^1.11.1",
+    "react-horizontal-timeline": "^1.5.3",
     "react-test-renderer": "15.6.2",
     "storybook-react-router": "^1.0.1",
     "webpack": "1.15.0"

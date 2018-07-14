@@ -1,4 +1,5 @@
 import React from 'react';
+import NavItemDropdown from '../NavItemDropdown';
 
 class Navbar extends React.Component {
   constructor() {
@@ -44,7 +45,50 @@ class Navbar extends React.Component {
           onClick={this.toggleClass.bind(this)}
         >
           <div className="navbar-start">
-            <a className="navbar-item">Home</a>
+            <a className="navbar-item has-dropdown">
+              <NavItemDropdown
+                navTitle="Getting Started"
+                dropdownItems={[
+                  'About JTA',
+                  'Offered Destinations & Universities, Scholarships, FAQs',
+                ]}
+              />
+            </a>
+            <NavItemDropdown
+              navTitle="How to Apply"
+              dropdownItems={[
+                'Step by Step Procedure',
+                'Downloadables',
+                'FAQs',
+              ]}
+            />
+            <NavItemDropdown
+              navTitle="Before You Go"
+              dropdownItems={[
+                'Information Sessions and Talks',
+                'Passport, Visas, and Insurance',
+                'Travel Resources',
+                'Travel Database',
+                'FAQs',
+              ]}
+            />
+            <NavItemDropdown
+              navTitle="During JTA"
+              dropdownItems={[
+                'Adjusting to Life Abroad',
+                'Departmental Contacts',
+                'Photo Gallery',
+                'FAQs',
+              ]}
+            />
+            <NavItemDropdown
+              navTitle="During JTA"
+              dropdownItems={[
+                'Post-JTA Requirements',
+                'JTA Exit Survey',
+                'FAQs',
+              ]}
+            />
           </div>
         </div>
       </nav>

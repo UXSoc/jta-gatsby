@@ -8,6 +8,7 @@ import HeroImage from '../components/HeroImage';
 import HeroDescription from '../components/HeroDescription';
 import ProcessTimeline from '../components/ProcessTimeline';
 import BulmaCard from '../components/BulmaCard';
+import Downloadables from '../components/Downloadables';
 import './index.scss';
 
 const TemplateWrapper = ({ children }) => (
@@ -52,6 +53,7 @@ const TemplateWrapper = ({ children }) => (
         </div>
       </div>
     </div>
+    <Downloadables />
     <div
       style={{
         margin: '0 auto',

@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 
 import Navbar from '../components/Navbar';
 import HeroBanner from '../components/HeroBanner';
+import HeroImage from '../components/HeroImage';
 import './index.scss';
 
 const TemplateWrapper = ({ children }) => (
@@ -17,6 +18,7 @@ const TemplateWrapper = ({ children }) => (
     />
     <Navbar />
     <HeroBanner />
+    <HeroImage />
     <div
       style={{
         margin: '0 auto',

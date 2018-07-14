@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Navbar from '../components/Navbar';
+import HeroBanner from '../components/HeroBanner';
 import './index.scss';
 
 const TemplateWrapper = ({ children }) => (
@@ -15,6 +16,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Navbar />
+    <HeroBanner />
     <div
       style={{
         margin: '0 auto',

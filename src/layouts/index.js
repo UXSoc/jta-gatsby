@@ -9,6 +9,7 @@ import HeroDescription from '../components/HeroDescription';
 import ProcessTimeline from '../components/ProcessTimeline';
 import BulmaCard from '../components/BulmaCard';
 import Downloadables from '../components/Downloadables';
+import Footer from '../components/Footer';
 import './index.scss';
 
 const TemplateWrapper = ({ children }) => (
@@ -54,16 +55,7 @@ const TemplateWrapper = ({ children }) => (
       </div>
     </div>
     <Downloadables />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
-    </div>
+    <Footer />
   </div>
 );
 

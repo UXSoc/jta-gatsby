@@ -24,6 +24,19 @@ const Footer = () => (
         </div>
         <div className="column">
           <h1 className="title">Connect With Us</h1>
+          <div className="field">
+            <div className="control -footer">
+              <span className="icon is-medium">
+                <i className="fab fa-2x fa-twitter" />
+              </span>
+              <span className="icon is-medium">
+                <i className="fab fa-2x fa-facebook" />
+              </span>
+              <span className="icon is-medium">
+                <i className="fab fa-2x fa-instagram" />
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@ const PAGES = [
     link: '/universities',
   },
 ];
-const AboutJta = () => (
+const Universities = () => (
   <div>
     <SiteNavigator title="JTA Destinations and Universities" pages={PAGES} />
     <section className="section">
@@ -135,4 +135,4 @@ const AboutJta = () => (
   </div>
 );
 
-export default AboutJta;
+export default Universities;

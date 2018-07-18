@@ -1,7 +1,7 @@
 import React from 'react';
-import SiteNavigator from '../components/SiteNavigator/SiteNavigator';
-import HeroImage from '../components/HeroImage';
-import CollapsibleLinks from '../components/CollapsibleLinks';
+import SiteNavigator from '../../components/SiteNavigator/SiteNavigator';
+import HeroImage from '../../components/HeroImage/index';
+import CollapsibleLinks from '../../components/CollapsibleLinks/index';
 
 const PAGES = [
   {
@@ -14,12 +14,15 @@ const PAGES = [
   },
   {
     title: 'Frequently Asked Questions',
-    link: '/faqs',
+    link: '/getting-started/faqs',
   },
 ];
 const Faqs = () => (
   <div>
-    <SiteNavigator title="Frequently Asked Questions" pages={PAGES} />
+    <SiteNavigator
+      title="Getting Started: Frequently Asked Questions"
+      pages={PAGES}
+    />
     <HeroImage />
     <section className="section">
       <div className="container">

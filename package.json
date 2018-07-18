@@ -47,6 +47,7 @@
     "prettier": "^1.11.1",
     "rc-collapse": "^1.9.3",
     "react-horizontal-timeline": "^1.5.3",
+    "react-stepzilla": "^4.7.2",
     "react-swipeable-views": "^0.12.14",
     "react-test-renderer": "15.6.2",
     "storybook-react-router": "^1.0.1",

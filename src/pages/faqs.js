@@ -17,7 +17,7 @@ const PAGES = [
     link: '/faqs',
   },
 ];
-const AboutJta = () => (
+const Faqs = () => (
   <div>
     <SiteNavigator title="Frequently Asked Questions" pages={PAGES} />
     <HeroImage />
@@ -29,4 +29,4 @@ const AboutJta = () => (
   </div>
 );
 
-export default AboutJta;
+export default Faqs;

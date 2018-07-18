@@ -18,7 +18,7 @@ const PAGES = [
     link: '/scholarships',
   },
 ];
-const AboutJta = () => (
+const Scholarships = () => (
   <div>
     <SiteNavigator title="Scholarships" pages={PAGES} />
     <HeroImage />
@@ -34,4 +34,4 @@ const AboutJta = () => (
   </div>
 );
 
-export default AboutJta;
+export default Scholarships;

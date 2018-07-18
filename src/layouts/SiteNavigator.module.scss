@@ -1,0 +1,17 @@
+.site-navigator {
+  >.page-link {
+    display: inline-block;
+    margin-right: 0.7rem;
+    >.name {
+      padding-left: 0.7rem;
+    }
+  }
+  .page-link:first-child {
+    >.link-icon {
+      display: none;
+    }
+    >.name {
+      padding-left: 0;
+    }
+  }
+}

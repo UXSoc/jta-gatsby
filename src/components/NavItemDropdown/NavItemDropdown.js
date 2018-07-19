@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 
 const NavItemDropdown = props => (
   <a className="navbar-item has-dropdown is-hoverable">
-    <a className="navbar-link">{props.navTitle}</a>
+    <a href={props.titleLink} className="navbar-link">{props.navTitle}</a>
     <div className="navbar-dropdown">
       {props.dropdownItems.map((name, index) => {
         return (
-          <a className="navbar-item" key={index}>
-            {name}
+          <a href={name.url} className="navbar-item" key={index}>
+            {name.title}
           </a>
         );
       })}
@@ -18,7 +18,13 @@ const NavItemDropdown = props => (
 
 NavItemDropdown.propTypes = {
   navTitle: PropTypes.string,
-  dropdownItems: PropTypes.array,
+  titleLink: PropTypes.string,
+  dropdownItems: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      url: PropTypes.string,
+    })
+  ),
 };
 
 export default NavItemDropdown;

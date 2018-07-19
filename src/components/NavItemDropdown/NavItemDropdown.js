@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const NavItemDropdown = props => (
   <a className="navbar-item has-dropdown is-hoverable">
-    <a href={props.titleLink} className="navbar-link">{props.navTitle}</a>
+    <a className="navbar-link">{props.navTitle}</a>
     <div className="navbar-dropdown">
       {props.dropdownItems.map((name, index) => {
         return (

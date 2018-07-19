@@ -48,45 +48,102 @@ class Navbar extends React.Component {
             <a className="navbar-item has-dropdown">
               <NavItemDropdown
                 navTitle="Getting Started"
+                titleLink="/about-jta"
                 dropdownItems={[
-                  'About JTA',
-                  'Offered Destinations & Universities, Scholarships, FAQs',
+                  {
+                    title: 'About JTA',
+                    url: '/about-jta',
+                  },
+                  {
+                    title:
+                      'Offered Destinations & Universities, Scholarships, FAQs',
+                    url: '/universities',
+                  },
                 ]}
               />
             </a>
             <NavItemDropdown
               navTitle="How to Apply"
+              titleLink="/how-to-apply"
               dropdownItems={[
-                'Step by Step Procedure',
-                'Downloadables',
-                'FAQs',
+                {
+                  title: 'Step by Step Procedure',
+                  url: '#',
+                },
+                {
+                  title: 'Downloadables',
+                  url: '/downloadables',
+                },
+                {
+                  title: 'FAQs',
+                  url: '/how-to-apply/faqs',
+                },
               ]}
             />
             <NavItemDropdown
               navTitle="Before You Go"
+              titleLink="/before-you-go"
               dropdownItems={[
-                'Information Sessions and Talks',
-                'Passport, Visas, and Insurance',
-                'Travel Resources',
-                'Travel Database',
-                'FAQs',
+                {
+                  title: 'Information Sessions and Talks',
+                  url: '/before-you-go/info-sessions',
+                },
+                {
+                  title: 'Passport, Visas, and Insurance',
+                  url: '/before-you-go/passport-visa-insurance',
+                },
+                {
+                  title: 'Travel Resources',
+                  url: '/before-you-go/travel-resources',
+                },
+                {
+                  title: 'Travel Database',
+                  url: '#',
+                },
+                {
+                  title: 'FAQs',
+                  url: '#',
+                },
               ]}
             />
             <NavItemDropdown
               navTitle="During JTA"
+              titleLink="/during-jta"
               dropdownItems={[
-                'Adjusting to Life Abroad',
-                'Departmental Contacts',
-                'Photo Gallery',
-                'FAQs',
+                {
+                  title: 'Adjusting to Life Abroad',
+                  url: '/during-jta/adjusting-to-life-abroad',
+                },
+                {
+                  title: 'Departmental Contacts',
+                  url: '/during-jta/departmental-contacts',
+                },
+                {
+                  title: 'Photo Gallery',
+                  url: '#',
+                },
+                {
+                  title: 'FAQs',
+                  url: '/during-jta/faqs',
+                },
               ]}
             />
             <NavItemDropdown
-              navTitle="During JTA"
+              navTitle="After JTA"
+              titleLink="/after-jta"
               dropdownItems={[
-                'Post-JTA Requirements',
-                'JTA Exit Survey',
-                'FAQs',
+                {
+                  title: 'Post-JTA Requirements',
+                  url: '/after-jta/post-jta-requirements',
+                },
+                {
+                  title: 'JTA Exit Survey',
+                  url: '#',
+                },
+                {
+                  title: 'FAQs',
+                  url: '#',
+                },
               ]}
             />
           </div>

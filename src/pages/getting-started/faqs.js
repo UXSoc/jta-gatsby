@@ -10,7 +10,7 @@ const PAGES = [
   },
   {
     title: 'Getting Started',
-    link: '/about-jta',
+    link: '/getting-started/about-jta',
   },
   {
     title: 'Frequently Asked Questions',

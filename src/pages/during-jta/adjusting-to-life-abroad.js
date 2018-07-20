@@ -20,7 +20,7 @@ const PAGES = [
 ];
 const AdjustingToLifeAbroad = () => (
   <div>
-    <SiteNavigator title="Travel Resources" pages={PAGES} />
+    <SiteNavigator title="Adjusting to Life Abroad" pages={PAGES} />
     <HeroImage />
     <HeroDescription
       title=""

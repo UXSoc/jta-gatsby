@@ -1,6 +1,6 @@
 import React from 'react';
-import SiteNavigator from '../components/SiteNavigator/SiteNavigator';
-import DownloadCard from '../components/DownloadCard';
+import SiteNavigator from '../../components/SiteNavigator/SiteNavigator';
+import DownloadCard from '../../components/DownloadCard/index';
 
 const PAGES = [
   {
@@ -13,7 +13,7 @@ const PAGES = [
   },
   {
     title: 'Downloadables',
-    link: '/downloadables',
+    link: '/how-to-apply/downloadables',
   },
 ];
 const JTA_APPLICATION_KIT = [

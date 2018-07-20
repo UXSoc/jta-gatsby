@@ -1,7 +1,7 @@
 import React from 'react';
-import SiteNavigator from '../components/SiteNavigator/SiteNavigator';
+import SiteNavigator from '../../components/SiteNavigator/SiteNavigator';
 import StepZilla from 'react-stepzilla';
-import StepWrapper from '../components/StepWrapper';
+import StepWrapper from '../../components/StepWrapper/index';
 
 const PAGES = [
   {
@@ -14,7 +14,7 @@ const PAGES = [
   },
   {
     title: 'Step by Step JTA Application Procedure',
-    link: '/application-procedure',
+    link: '/how-to-apply/application-procedure',
   },
 ];
 const steps = [

@@ -1,8 +1,8 @@
 import React from 'react';
-import SiteNavigator from '../components/SiteNavigator/SiteNavigator';
-import HeroImage from '../components/HeroImage';
-import HeroDescription from '../components/HeroDescription/HeroDescription';
-import CollapsibleLinks from '../components/CollapsibleLinks';
+import SiteNavigator from '../../components/SiteNavigator/SiteNavigator';
+import HeroImage from '../../components/HeroImage/index';
+import HeroDescription from '../../components/HeroDescription/HeroDescription';
+import CollapsibleLinks from '../../components/CollapsibleLinks/index';
 
 const PAGES = [
   {
@@ -11,11 +11,11 @@ const PAGES = [
   },
   {
     title: 'Getting Started',
-    link: '/',
+    link: '/getting-started/about-jta',
   },
   {
     title: 'About JTA',
-    link: '/',
+    link: '/getting-started/about-jta',
   },
 ];
 const AboutJta = () => (

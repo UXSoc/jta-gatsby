@@ -1,5 +1,5 @@
 import React from 'react';
-import SiteNavigator from '../components/SiteNavigator/SiteNavigator';
+import SiteNavigator from '../../components/SiteNavigator/SiteNavigator';
 
 const PAGES = [
   {
@@ -8,11 +8,11 @@ const PAGES = [
   },
   {
     title: 'Getting Started',
-    link: '/about-jta',
+    link: '/getting-started/about-jta',
   },
   {
     title: 'JTA Destinations and Universities',
-    link: '/universities',
+    link: '/getting-started/universities',
   },
 ];
 const Universities = () => (
@@ -25,20 +25,24 @@ const Universities = () => (
             <div className="card">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img
-                    src="https://bulma.io/images/placeholders/1280x960.png"
-                    alt="Placeholder image"
-                  />
+                  <a href="/university">
+                    <img
+                      src="https://bulma.io/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    />
+                  </a>
                 </figure>
               </div>
               <div className="card-content">
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-48x48">
-                      <img
-                        src="https://bulma.io/images/placeholders/96x96.png"
-                        alt="Placeholder image"
-                      />
+                      <a href="/university">
+                        <img
+                          src="https://bulma.io/images/placeholders/1280x960.png"
+                          alt="Placeholder image"
+                        />
+                      </a>
                     </figure>
                   </div>
                   <div className="media-content">
@@ -61,10 +65,12 @@ const Universities = () => (
             <div className="card">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img
-                    src="https://bulma.io/images/placeholders/1280x960.png"
-                    alt="Placeholder image"
-                  />
+                  <a href="/university">
+                    <img
+                      src="https://bulma.io/images/placeholders/1280x960.png"
+                      alt="Placeholder image"
+                    />
+                  </a>
                 </figure>
               </div>
               <div className="card-content">

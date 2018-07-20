@@ -47,19 +47,19 @@ class Navbar extends React.Component {
           <div className="navbar-start">
             <NavItemDropdown
               navTitle="Getting Started"
-              titleLink="/about-jta"
+              titleLink="/getting-started/about-jta"
               dropdownItems={[
                 {
                   title: 'About JTA',
-                  url: '/about-jta',
+                  url: '/getting-started/about-jta',
                 },
                 {
                   title: 'Offered Destinations & Universities',
-                  url: '/universities',
+                  url: '/getting-started/universities',
                 },
                 {
                   title: 'Scholarships',
-                  url: '/scholarships',
+                  url: '/getting-started/scholarships',
                 },
                 {
                   title: 'FAQs',
@@ -73,11 +73,11 @@ class Navbar extends React.Component {
               dropdownItems={[
                 {
                   title: 'Step by Step Procedure',
-                  url: '/application-procedure',
+                  url: '/how-to-apply/application-procedure',
                 },
                 {
                   title: 'Downloadables',
-                  url: '/downloadables',
+                  url: '/how-to-apply/downloadables',
                 },
                 {
                   title: 'FAQs',

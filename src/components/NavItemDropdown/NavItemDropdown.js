@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const NavItemDropdown = props => (
-  <a className="navbar-item has-dropdown is-hoverable">
+  <div className="navbar-item has-dropdown is-hoverable">
     <a className="navbar-link">{props.navTitle}</a>
     <div className="navbar-dropdown">
       {props.dropdownItems.map((name, index) => {
@@ -13,7 +13,7 @@ const NavItemDropdown = props => (
         );
       })}
     </div>
-  </a>
+  </div>
 );
 
 NavItemDropdown.propTypes = {

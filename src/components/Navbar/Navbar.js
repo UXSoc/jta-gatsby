@@ -66,7 +66,7 @@ class Navbar extends React.Component {
               dropdownItems={[
                 {
                   title: 'Step by Step Procedure',
-                  url: '#',
+                  url: '/application-procedure',
                 },
                 {
                   title: 'Downloadables',

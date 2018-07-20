@@ -19,7 +19,7 @@ export default class HorizontalTimelineContent extends React.Component {
       minEventPadding: 80,
       maxEventPadding: 80,
       linePadding: 100,
-      labelWidth: 100,
+      labelWidth: 150,
       fillingMotionStiffness: 150,
       fillingMotionDamping: 25,
       slidingMotionStiffness: 150,
@@ -54,7 +54,7 @@ export default class HorizontalTimelineContent extends React.Component {
     });
 
     return (
-      <div>
+      <section className="section">
         <div style={{ width: '60%', height: '100px', margin: '0 auto' }}>
           <HorizontalTimeline
             fillingMotion={{
@@ -96,7 +96,7 @@ export default class HorizontalTimelineContent extends React.Component {
             {views}
           </SwipeableViews>
         </div>
-      </div>
+      </section>
     );
   }
 }

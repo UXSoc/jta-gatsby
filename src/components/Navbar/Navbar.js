@@ -54,9 +54,16 @@ class Navbar extends React.Component {
                   url: '/about-jta',
                 },
                 {
-                  title:
-                    'Offered Destinations & Universities, Scholarships, FAQs',
+                  title: 'Offered Destinations & Universities',
                   url: '/universities',
+                },
+                {
+                  title: 'Scholarships',
+                  url: '/scholarships',
+                },
+                {
+                  title: 'FAQs',
+                  url: '/getting-started/faqs',
                 },
               ]}
             />

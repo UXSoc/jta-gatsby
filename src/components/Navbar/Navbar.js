@@ -45,23 +45,21 @@ class Navbar extends React.Component {
           onClick={this.toggleClass.bind(this)}
         >
           <div className="navbar-start">
-            <a className="navbar-item has-dropdown">
-              <NavItemDropdown
-                navTitle="Getting Started"
-                titleLink="/about-jta"
-                dropdownItems={[
-                  {
-                    title: 'About JTA',
-                    url: '/about-jta',
-                  },
-                  {
-                    title:
-                      'Offered Destinations & Universities, Scholarships, FAQs',
-                    url: '/universities',
-                  },
-                ]}
-              />
-            </a>
+            <NavItemDropdown
+              navTitle="Getting Started"
+              titleLink="/about-jta"
+              dropdownItems={[
+                {
+                  title: 'About JTA',
+                  url: '/about-jta',
+                },
+                {
+                  title:
+                    'Offered Destinations & Universities, Scholarships, FAQs',
+                  url: '/universities',
+                },
+              ]}
+            />
             <NavItemDropdown
               navTitle="How to Apply"
               titleLink="/how-to-apply"
